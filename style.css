@@ -1,0 +1,46 @@
+.intro{
+    background-color: red;
+    background-image: url(images/nc.jpg);
+}
+h1{
+    color: green;
+}
+#myself{
+    background-color: red;
+}
+p{
+    color: rgb(104, 169, 7);
+}
+p.rm{
+    background-color: blueviolet;
+}
+n,f{
+    background-color: royalblue;
+}
+*{
+    background-colorrgb(67, 4, 4);
+}
+div>p{
+    background-color: yellowgreen;
+}
+div+p{
+    background-color: rgb(49, 21, 231);
+}
+p~ul{
+    background: white;
+}
+a[target]{
+    background-color:yellow;
+}
+[title~="name"]{
+    border: 5px solid pink;
+}
+[lang|="en"]{
+    background-color: ;
+}
+div[class^="test"]{
+    background-color: blue;
+}
+a:active{
+    background-color: blueviolet;
+}
